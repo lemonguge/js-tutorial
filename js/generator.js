@@ -7,7 +7,7 @@ function* fib(max) {
     while (n < max) {
         yield a;
         [a, b] = [b, a + b];
-        n ++;
+        n++;
     }
     return;
 }
