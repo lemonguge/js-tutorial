@@ -27,3 +27,11 @@ xiaoming = new StudentC('小明');
 xiaohong = new StudentC('小红');
 
 console.log(xiaoming.hello === xiaohong.hello); // true
+
+function f1() {
+};
+console.log(f1.prototype); // f1 {}
+console.log(typeof f1.prototype); // object
+console.log(typeof Function.prototype); // function
+console.log(typeof Object.prototype); // object
+console.log(typeof Function.prototype.prototype); // undefined
